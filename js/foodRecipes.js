@@ -194,7 +194,7 @@ export function foodRecipes() {
 
     const buttonDelete = document.createElement("button");
     buttonDelete.classList.add("btn", "w-100", "btn-danger");
-    buttonDelete.textContent = "Eliminar de favoritos";
+    buttonDelete.textContent = "Quitar de favoritos";
 
     buttonDelete.onclick = () => {
       // Eliminar receta

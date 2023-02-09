@@ -26,31 +26,34 @@
     </h1>
 
     <main class="container-xl mt-5">
-      <h2 class="text-center my-5">Selecciona una categoria</h2>
+      <h2 class="text-center my-5">Seleccione una categoría</h2>
       <div class="row">
         <div class="col-md-6 mx-auto">
           <form>
             <select
               id="select-foodRecipes"
-              class="form-select"
+              class="form-select fs-5"
               aria-label="Seleccione la categoría de la receta"
             >
-              <option disabled selected>--Seleccione--</option>
+              <option disabled selected>-- Seleccione --</option>
             </select>
           </form>
         </div>
       </div>
 
-      <a class="btn btn-dark mt-5" href="favorites.html"
+      <a class="btn btn-dark mt-5 fs-5" href="favorites.html"
         ><i class="bi bi-eye-fill"></i> Ver Recetas Favoritas</a
       >
 
       <h3 class="text-center my-5">
-        Empieza por seleccionar una categoría para ver las mejores recetas
+        <i class="bi bi-stars"></i> Las mejores recetas que preparar
+        <i class="bi bi-stars"></i>
       </h3>
 
+      <!-- Contenedor para mostrar los favoritos -->
       <div id="result" class="mt-5"></div>
 
+      <!-- Modal -->
       <div
         class="modal fade"
         id="modal"
@@ -81,7 +84,17 @@
     </main>
 
     <footer class="footer bg-dark">
-      <p class="text-center text-white fw-bold fs-5 p-3 text-uppercase">Creado por<span><a class="text-decoration-none" href="https://github.com/DwightGudiel" target="_blank"> Dwight Gudiel <i class="bi bi-github"></i> </a></span> <span id="copyright-year"></span></p>
+      <p class="text-center text-white fw-bold fs-5 p-3 text-uppercase">
+        Creado por<span
+          ><a
+            class="text-decoration-none"
+            href="https://github.com/DwightGudiel"
+            target="_blank"
+          >
+            Dwight Gudiel <i class="bi bi-github"></i> </a
+        ></span>
+        <span id="copyright-year"></span>
+      </p>
     </footer>
 
     <!-- app -->
